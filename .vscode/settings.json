@@ -1,0 +1,15 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "**/captions.json"
+            ],
+            "url": "./captions.schema.json"
+        }
+    ],
+    "cSpell.words": [
+        "cuda",
+        "demucs",
+        "htdemucs"
+    ]
+}

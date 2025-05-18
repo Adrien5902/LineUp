@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"start": "npm run start -w server",
+		"build": "npm run build -w server && npm run build -w client",
+		"dev": "concurrently --kill-others \"npm run dev -w server\" \"npm run dev -w client\""
+	},
+	"workspaces": [
+		"server",
+		"client"
+	],
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"concurrently": "^9.1.2"
+	}
+}
